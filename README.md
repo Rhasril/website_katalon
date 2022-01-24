@@ -1,7 +1,7 @@
 ## eFishery_QA_TEST
 
 
-Ada 2 testcase yang disimulasikan menggunakan katalon automation website yaitu _TC1 - Play music hasil pencarian & TC2 - Mini player video_. Jika katalon studio belum terinstall bisa cek [disini](https://docs.katalon.com/katalon-studio/videos/how_to_install_katalon_studio.html) untuk panduannya.
+Automation testing tools yang digunakan untuk project ini adalah **Katalon Studio**. Simulasi yang dilakukan adalah automation website https://music.youtube.com/. Contoh testcase yaitu _TC1 - Play music hasil pencarian & TC2 - Mini player video_. Jika katalon studio belum terinstall bisa cek [disini](https://docs.katalon.com/katalon-studio/videos/how_to_install_katalon_studio.html) untuk panduannya.
 
 ### How to test project sebagai berikut:
 
