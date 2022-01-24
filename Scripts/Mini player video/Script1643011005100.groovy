@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://music.youtube.com/')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_YouTube Music/yt-icon_See all_icon style-scope ytmusic-pl_3ab75a'))
+
+if (true) {
+    WebUI.getText(findTestObject('Page_YouTube Music/div_Skip Ad'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Page_YouTube Music/div_Skip Ad'))
+}
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_YouTube Music/yt-formatted-string_No thanks'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_YouTube Music/tp-yt-iron-icon_by NOAH OFFICIAL_icon'))
+
+WebUI.verifyElementClickable(findTestObject('Page_YouTube Music/tp-yt-iron-icon__icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(30)
+
+WebUI.closeBrowser()
+
