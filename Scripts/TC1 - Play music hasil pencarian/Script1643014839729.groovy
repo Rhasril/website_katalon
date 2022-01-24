@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Page_YouTube Music/ytmusic-play-button-renderer_Top 
 if (true) {
     WebUI.getText(findTestObject('Page_YouTube Music/div_Skip Ad'))
 
-    WebUI.delay(3)
+    WebUI.delay(5)
 
     WebUI.click(findTestObject('Page_YouTube Music/div_Skip Ad'))
 }
