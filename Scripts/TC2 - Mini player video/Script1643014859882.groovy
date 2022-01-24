@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_YouTube Music/yt-icon_See all
 if (true) {
     WebUI.getText(findTestObject('Page_YouTube Music/div_Skip Ad'))
 
-    WebUI.delay(3)
+    WebUI.delay(5)
 
     WebUI.click(findTestObject('Page_YouTube Music/div_Skip Ad'))
 }
@@ -42,6 +42,10 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Page_YouTube Music/tp-yt-iron-icon_by NOAH OFFICIAL_icon'))
 
 WebUI.verifyElementClickable(findTestObject('Page_YouTube Music/tp-yt-iron-icon__icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_YouTube Music/yt-formatted-string_Explore'))
 
 WebUI.delay(30)
 

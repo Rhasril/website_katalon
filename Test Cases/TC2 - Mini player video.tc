@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Berhasil play music hasil pencarian melalui menu search</description>
-   <name>Mini player video</name>
+   <description>Berhasil open mini player video dan musik tetap berjalan</description>
+   <name>TC2 - Mini player video</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>907ed097-35d6-4ee4-b639-43f23f21f7c2</testCaseGuid>

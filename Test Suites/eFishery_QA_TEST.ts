@@ -15,7 +15,7 @@
       <guid>7544ac94-4c79-4807-a5b5-8850f59ac7b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Play music hasil pencarian</testCaseId>
+      <testCaseId>Test Cases/TC1 - Play music hasil pencarian</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,6 +27,6 @@
       <guid>a155e15e-5e8b-4822-922c-2efe5171bca6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mini player video</testCaseId>
+      <testCaseId>Test Cases/TC2 - Mini player video</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
